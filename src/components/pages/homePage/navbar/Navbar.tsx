@@ -19,7 +19,7 @@ export default function Navbar() {
   );
 }
 
-const NavbarStyled = styled.div`
+const NavbarStyled = styled.nav`
   width: 100%;
   height: 69px;
   display: flex;

@@ -6,11 +6,14 @@ export default function MainPage() {
       <div>
         <div className="main-page-text">
           <h1>REVELEZ VOTRE ECLAT NATUREL</h1>
+          <div className="bloc1" />
+          <div className="bloc2" />
           <p>
             Découvrez la puissance des ingrédients naturels pour une peau
             <b> douce </b>
             et <b> hydratée</b>
           </p>
+
           <button>Acheter maintenant</button>
         </div>
       </div>
@@ -31,16 +34,18 @@ const MainPageStyled = styled.div`
     width: 220px;
     margin-left: 80px;
     margin-right: 50px;
-    
+    position: relative;
   }
   h1 {
     font-size: 48px;
     margin-bottom: 10px;
+    line-height: 1.3;
   }
-  p{
-    width: 170px;
+  p {
+    width: 220px;
+    font-size: 20px;
   }
-  button{
+  button {
     margin-top: 30px;
     background: #4e0053;
     color: white;
@@ -61,4 +66,24 @@ const MainPageStyled = styled.div`
     width: 800px;
   }
 
+  .bloc1 {
+    width: 230px;
+    height: 85px;
+    transform: rotate(-5deg);
+    background: #fbe6ff;
+    position: absolute;
+    top: 85px;
+    right: 0px;
+    z-index: -1;
+  }
+  .bloc2 {
+    width: 230px;
+    height: 85px;
+    transform: rotate(-5deg);
+    background: #efdb69;
+    position: absolute;
+    top: 210px;
+    left: 0px;
+    z-index: -1;
+  }
 `;
