@@ -38,7 +38,7 @@ const NavbarStyled = styled.div`
     list-style-type: none;
     color: white;
     display: flex;
-    gap: 18px;
+    gap: 35px;
     font-weight: bold;
     font-size: 20px;
 
@@ -51,6 +51,7 @@ const NavbarStyled = styled.div`
   }
   button {
     margin-left: 24px;
+    margin-right: 30px;
     background: #4e0053;
     color: white;
     width: 230px;
