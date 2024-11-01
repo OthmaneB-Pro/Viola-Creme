@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <NavbarStyled>
       <h1>Viola Crème</h1>
-      <div>
+      <div className="navbar-right">
         <div>
           <ul>
             <li>Accueil</li>
@@ -39,7 +39,15 @@ const NavbarStyled = styled.div`
     color: white;
     display: flex;
     gap: 18px;
+    font-weight: bold;
     font-size: 20px;
+
+    li:hover {
+      cursor: pointer;
+      transition: 0.2s;
+      text-decoration: underline;
+      color: #c7c7c7;
+    }
   }
   button {
     margin-left: 24px;
@@ -49,5 +57,15 @@ const NavbarStyled = styled.div`
     height: 45px;
     border-radius: 15px;
     font-size: 20px;
+    font-weight: bold;
+    &:hover {
+      cursor: pointer;
+      transition: 0.2s;
+      color: #c7c7c7;
+    }
+  }
+  .navbar-right {
+    display: flex;
+    align-items: center;
   }
 `;
