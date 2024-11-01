@@ -14,7 +14,7 @@ export default function MainPage() {
             et <b> hydratée</b>
           </p>
 
-          <button>Acheter maintenant</button>
+          <button>En savoir plus</button>
         </div>
       </div>
       <img src="./img/bottle-viola.png" alt="flacons" />

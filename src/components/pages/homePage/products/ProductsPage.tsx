@@ -11,24 +11,27 @@ export default function ProductsPage() {
         <div className="product-card">
           <img src="./img/creme.PNG" alt="product1" />
           <p>
-            Découvrez la puissance des ingrédients naturels pour une peau douce
-            et hydratée
+            Éveillez la beauté naturelle de votre peau avec ce soin nourrissant,
+            formulé pour offrir <b> éclat </b> et <b> douceur</b>, tout en
+            respectant l’équilibre naturel
           </p>
           <button>Acheter maintenant</button>
         </div>
         <div className="product-card">
           <img src="./img/creme deux.PNG" alt="product2" />
           <p>
-            Découvrez la puissance des ingrédients naturels pour une peau douce
-            et hydratée
+            Un sérum léger et revitalisant, conçu pour<b> nourrir </b> et{" "}
+            <b> hydrater </b> intensément la peau, grâce à des ingrédients
+            d'origine naturelle.
           </p>
           <button>Acheter maintenant</button>
         </div>
         <div className="product-card">
           <img src="./img/creme3.PNG" alt="product3" />
           <p>
-            Découvrez la puissance des ingrédients naturels pour une peau douce
-            et hydratée
+            Offrez à votre peau le confort qu'elle mérite avec notre crème riche
+            en extraits naturels, pour une <b> hydratation durable </b> et un
+            toucher <b> velouté </b>
           </p>
           <button>Acheter maintenant</button>
         </div>
@@ -52,6 +55,8 @@ const ProductsPageStyled = styled.div`
   }
   h1 {
     text-align: center;
+    font-weight: 400;
+    font-size: 36px;
     margin-bottom: 90px;
   }
   .products-container {
@@ -78,9 +83,10 @@ const ProductsPageStyled = styled.div`
       border-radius: 50%;
       border: 2px solid black;
       object-fit: contain;
+      margin-bottom: 20px;
     }
     button {
-      margin-top: 10px;
+      margin-top: 20px;
       background: #4e0053;
       color: white;
       width: 230px;
