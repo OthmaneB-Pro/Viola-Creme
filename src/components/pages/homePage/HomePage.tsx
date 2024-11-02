@@ -1,3 +1,4 @@
+import Footer from "./footer/Footer";
 import MainPage from "./main/MainPage";
 import Navbar from "./navbar/Navbar";
 import ProductsPage from "./products/ProductsPage";
@@ -7,7 +8,8 @@ export default function HomePage() {
     <div>
       <Navbar />
       <MainPage />
-      <ProductsPage/>
+      <ProductsPage />
+      <Footer />
     </div>
   );
 }

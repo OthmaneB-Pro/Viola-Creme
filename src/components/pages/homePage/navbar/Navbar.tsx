@@ -30,7 +30,7 @@ const NavbarStyled = styled.nav`
   h1 {
     color: white;
     font-size: 36px;
-    font-family: "Gorditas", sans-serif; // Pas la bonne
+    font-family: "Gorditas", cursive; // Pas la bonne
     font-weight: bold;
     margin-left: 16px;
   }
