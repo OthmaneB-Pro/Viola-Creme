@@ -49,8 +49,10 @@ const FooterStyled = styled.div`
   height: 300px;
   background: #8d1197;
   color: white;
-  p {
-    color: grey;
+ 
+  ul{
+    margin: 0px;
+    padding: 0px;
   }
 
   .footer-icons {
